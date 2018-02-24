@@ -150,14 +150,18 @@ html {
   text-align: left;
 }
 .container .header .intro-container .intro-text h3 {
+  margin: 0 auto;
   display: block;
   color: #ff5600;
   font-weight: 600;
   padding: 10px;
+  padding-bottom: 0;
   text-transform: uppercase;
 }
 .container .header .intro-container .intro-text h1 {
+  margin: 0 auto;
   padding: 10px;
+  padding-bottom: 0;
   font-size: 43px;
   color: white;
   text-transform: uppercase;
@@ -171,9 +175,11 @@ html {
   display: block;
 }
 .container .header .intro-container .intro-text p {
+  margin: 0 auto;
   text-indent: 50px;
   line-height: 30px;
   padding: 10px;
+  padding-top: 0;
   color: white;
 }
 .container .header .intro-container .intro-text p span {
