@@ -339,6 +339,7 @@ html {
   box-shadow: 0px 10px 30px -6px black;
 }
 .container .skill-wrap h3 {
+  margin: 0 auto;
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 3px;
@@ -352,7 +353,8 @@ html {
   text-align: left;
 }
 .container .skill-wrap .skill h4 {
-  padding: 10px;
+  margin: 0 auto;
+/*   padding: 10px; */
   padding-left: 0;
   display: block;
   color: #d4dc91;
