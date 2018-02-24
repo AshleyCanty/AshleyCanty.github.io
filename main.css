@@ -62,6 +62,7 @@ html {
   background: #ff5600;
 }
 .container .header .menu .logo .inner-logo {
+  relative;
   height: 99%;
   width: 99%;
   position: absolute;
@@ -78,6 +79,7 @@ html {
   background: #e84e00;
 }
 .container .header .menu .logo .inner-logo h3 {
+  margin: 0 auto;
   position: absolute;
   font-size: 25px;
   top: 50%;
