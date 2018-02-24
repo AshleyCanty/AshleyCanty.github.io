@@ -290,8 +290,8 @@ html {
   width: 100%;
   text-align: center;
   background: rgba(23, 23, 23, 0.1);
-  padding: 20px;
-}
+  padding: 40px 20px 20px 20px;
+} 
 .container .about-me .wrapper {
   display: inline-block;
   margin: 0 auto;
@@ -299,12 +299,12 @@ html {
   vertical-align: top;
 }
 .container .about-me .wrapper .border {
-  margin-top: 30px;
+  margin-top: 55px;
   display: inline-block;
   vertical-align: top;
   width: 2px;
   background: grey;
-  height: 280px;
+  height: 305px;
 }
 .container .about-me .wrapper .about-info {
   display: inline-block;
