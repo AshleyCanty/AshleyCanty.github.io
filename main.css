@@ -1,5 +1,6 @@
 html {
   font-family: 'Open Sans', sans-serif;
+  background: rgba(23, 23, 23, .1);
 }
 * {
   box-sizing: border-box;
@@ -178,7 +179,7 @@ html {
 }
 .container .projects {
   width: 100%;
-  background: rgba(23, 23, 23, .1);
+/*   background: rgba(23, 23, 23, .1); */
 }
 .container .projects .project-header {
   width: 100%;
