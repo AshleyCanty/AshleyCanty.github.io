@@ -286,8 +286,7 @@ html {
 .container .projects .project-col .project img {
   margin: 0 auto;
   display: block;
-  width: 70%;
-  min-width: 40%;
+  width: 30%;
 }
 .container .projects .project-col .page-break {
   margin: 20px auto 10px auto;
