@@ -4,165 +4,119 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="main.css">
-        <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"></script>
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:400,600|Roboto:400,500,700" rel="stylesheet">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
-    <body>
-        <div class="container">
-          <header class="header">
-            <div class="menu">
-              <div class="logo"><div class="inner-logo"><h3>AC</h3></div></div>
-            <ul>
-              <li><a href="" id="link1">Portfolio</a></li>
-              <li><a href="#" id="link2">Skills</a></li>
-              <li><a href="" id="link3">contact</a></li>
-            </ul>
-            <div class="icon-wrap">
-              <a href="https://github.com/AshleyCanty" target="_blank">
-              <i class="fa fa-github" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/ashley-canty-09763274" target="_blank">
-              <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            </div>
-              </div>
-
-            <div class="intro-container">
-                <img src="https://lh3.googleusercontent.com/-WZImD7yiJK0/Wotenqs4NDI/AAAAAAAADjU/8YnHhga64iMGveURjlOxqB0uslBdCwDNgCEwYBhgL/s580/s16_SportsShorts_inline.jpg"/>
-              <div class="intro-text">
-              <h3>Hello, my name is</h3>
-                <h1> Ashley Canty</h1>
-                <!-- <span class="sp-one"> &</span> -->
-                  <!-- <span class="sp-two">i'm a web developer</span> -->
-        <!--         <div class="border"></div> -->
-                <div class="p-wrap" style="font-family: 'Roboto', sans-serif;text-align: left;font-size: 20px;line-height: 1.6;">
-                  <p>
-                    I'm a web developer based in Pleasantville, New Jersey. I like to challenge myself by learning new skills and using them to create cool projects. I graduated with a B.S. in Computer Science from Rutgers University of Newark. I enjoy spending my free time reading, going to the gym, watching movies, as well as hanging with family and friends.
-                  </p>
-               </div>
-
-              </div>
-            </div>
-
-          </header>
-          <div class="projects" id="#link1">
-         <div class="project-header" id="project-header">
-           <div class="wrapper">
-            <h3>Projects</h3>
-              <p>
-                Here the projects that I have created whilst sharpening my knowledge in web develeopment technologies.
-              </p>
-            </div>
-            </div>
-            <div class="project-col">
-              <div class="project">
-                <div class="project-info">
-                  <h3>IMDB Homepage</h3>
-                  <p>
-                    Inspired by a design I saw on <a href="https://dribbble.com/shots/2266601-IMDb-design-concept" target="_blank"> Dribbble.com</a>, I did a recreation using HTML and CSS grids.
-                  </p>
-                  <div class="btn-wrap">
-                    <a class="gitlink" href="https://github.com/AshleyCanty/imdb-layout" target="_blank">
-                        <button class="btn"> View on Github</button>
-                    </a>
-                  </div>
-                </div>
-                <img src="p1.png">
-              </div>
-              <div class="page-break"></div>
-              <div class="project">
-                <div class="project-info">
-                  <h3>Zycko App</h3>
-                  <p>
-                    Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis d
-                  </p>
-                  <div class="btn-wrap">
-                    <a class="gitlink" href="https://github.com/AshleyCanty/imdb-layout" target="_blank">
-                        <button class="btn"> View on Github</button>
-                    </a>                  </div>
-                </div>
-                <img src="https://c.s-microsoft.com/en-us/CMSImages/Image_OfficeforMac_MadetoMove_779x378.png?version=3213119a-5e9e-80cf-eeca-76935585da94">
-              </div>
-              <div class="page-break"></div>
-              <div class="project">
-                <div class="project-info">
-                  <h3>Zycko App</h3>
-                  <p>
-                    Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis d
-                  </p>
-                  <div class="btn-wrap">
-                    <a class="gitlink" href="https://github.com/AshleyCanty/imdb-layout" target="_blank">
-                        <button class="btn"> View on Github</button>
-                    </a>                  </div>
-                </div>
-                <img src="https://c.s-microsoft.com/en-us/CMSImages/Image_OfficeforMac_MadetoMove_779x378.png?version=3213119a-5e9e-80cf-eeca-76935585da94">
-              </div>
-            </div>
+  <body>
+    <section id="side-profile">
+      <div class="col-1">
+        <img src="./public/img/ac.png"/>
+        <div class="row-1">
+          <h5>Ashley</h5>
+          <h6>Web Devoloper</h6>
+        </div>
+        <nav id="navbar">
+          <ul>
+            <li class="active"><a href="#">
+              <i class="fas fa-handshake"></i> Welcome
+            </a></li>
+            <li><a href="#">
+              <i class="fas fa-paperclip" style="-webkit-transform: scaleX(-1); transform: scaleX(-1);"></i> Portfolio
+            </a></li>
+            <li><a href="./public/img/ACResume.pdf">
+              <i class="fas fa-folder-open"></i> Resume
+            </a></li>
+            <li><a href="#contact">
+              <i class="fas fa-link"></i> Contact
+            </a></li>
+          </ul>
+        </nav>
+          <div class="social-links">
+            <a target="_blank" href="https://plus.google.com/u/0/110907339715958845780"><i class="fab fa-google-plus-g"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/ashley-canty-09763274"><i class="fab fa-linkedin-in"></i></a>
           </div>
-
-
-          <div class="about-me" id="about-me">
-            <div class="wrapper">
-              <div class="border"></div>
-              <div class="about-info">
-                <h2>About Me</h2>
-                <p>
-                  Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat…
-                </p>
-              </div>
-            </div>
-            <div class="skill-wrap" id="grid">
-              <h3 class="skills">Skills</h3>
-              <div class="group one">
-              <div class="skill">
-                <h4>HTML</h4>
-                <div class="bar">
-                  <div class="filling" style="width: 80%;"></div>
-                </div>
-              </div>
-              <div class="skill">
-                <h4>CSS</h4>
-                <div class="bar">
-                  <div class="filling" style="width: 60%;"></div>
-                </div>
-              </div>
-              <div class="skill">
-                <h4>Javascript</h4>
-                <div class="bar">
-                  <div class="filling" style="width: 35%;"></div>
-                </div>
-              </div>
-            </div>
-            <div class="group two">
-              <div class="skill">
-                <h4>JQuery</h4>
-                <div class="bar">
-                  <div class="filling" style="width: 30%;"></div>
-                </div>
-              </div>
-              <div class="skill">
-                <h4>Java</h4>
-                <div class="bar">
-                  <div class="filling" style="width: 50%;"></div>
-                </div>
-              </div>
-            </div>
-           </div>
-          <div class="footer" id="#link3">
-            <div class="contact">
-              <div class="email"><h4>canty.ashleyj@gmail.com</h4></div>
-              <h5>609.674.6029</h5>
-            </div>
-        <!--     <h5> Ashley Canty</h5> -->
-              <h5 class="copyright"> Copyright © 2017 Ashley Canty.</h5>
+      </div>
+    </section>
+    <div id="container">
+      <section id="content">
+        <div class="row-1">
+          <div class="overlay"></div>
+          <img src="./public/img/ws.png" />
+          <div class="row">
+            <h1>Hi there. | How may I help you?</h1>
+            <h3 class="header">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla</h3>
           </div>
         </div>
-      </body>
-    </html>
-<!--    https://i.pinimg.com/originals/4c/6e/13/4c6e132f59344be3b51f6805731ea4e8.jpg -->
-    <script src="regularJS.js"></script>
+        <div class="row-2">
+          <h4 class="header">My experience & skills</h4>
+          <p> Temporibus autem ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+          <div class="code-logos">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js-square"></i>
+          </div>
+        </div>
+        <div class="row-3">
+          <div class="header-wrap">
+            <h4 class="header">My Projects</h4>
+          </div>
+          <div class="project-1">
+            <div class="col">
+              <h4 class="title">Wunderapp</h4>
+              <p>Sapiente delectu ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+              <a class="links a" target="_blank" href="https://ashleycanty.github.io/wunderapp-redesign/">Live Demo</a>
+              <a class="links b" target="_blank" href="https://github.com/AshleyCanty/wunderapp-redesign"><span>View on Github</span></a>
+            </div>
+            <img src="./public/img/sh1.png"/>
+          </div>
+          <div class="project-3">
+            <div class="col">
+              <h4 class="title">IMDb Layout</h4>
+              <p>Sapiente delectu ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+              <a class="links a"  target="_blank" href="https://ashleycanty.github.io/hyperapp-imdb/">Live Demo</a>
+              <a class="links b"  target="_blank" href="https://github.com/AshleyCanty/hyperapp-imdb"><span>View on Github</span></a>
+            </div>
+            <img src="./public/img/sh2.png"/>
+          </div>
+          <div class=""></div>
+          <div class="project-4">
+            <div class="col">
+              <h4 class="title">Schedule Manager</h4>
+              <p>Sapiente delectu ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+              <a class="links a" target="_blank"  href="https://ashleycanty.github.io/manager/">Live Demo</a>
+              <a class="links b" target="_blank"  href="https://github.com/AshleyCanty/manager"><span>View on Github</span></a>
+            </div>
+            <img src="./public/img/sh3.png"/>
+          </div>
+          <div class=""></div>
+          <div class="project-5">
+            <div class="col">
+              <h4 class="title">Dynamic HTML Table</h4>
+              <p>Sapiente delectu ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+              <a class="links b"  target="_blank" href="https://codepen.io/ash326/pen/PeWepa"><span>View on Codepen</span></a>
+            </div>
+            <img src="./public/img/sh4.png"/>
+          </div>
+        </div>
+        <div class="border"></div>
+        <div id="contact" class="row-4">
+          <h4 class="header">Let's get connected!</h4>
+          <form action="https://www.enformed.io/mn17lifb" method="POST" >
+            <label>Name</label>
+            <input name="name" type="text"/>
+            <label>Email</label>
+            <input name="email" type="email"/>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+            <input id="submit" type="submit" value="Send"/>
+          </form>
+        </div>
+        <section id="footer">
+          <span>Ashley Canty © All Rights Reserved.</span>
+        </section>
+      </section>
+    </div>
+
   </body>
 </html>
