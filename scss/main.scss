@@ -1,0 +1,348 @@
+@import "config";
+@import "menu";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.2;
+}
+
+#home {
+  overflow: hidden;
+  background: url("../img/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  min-height: calc(100vh - 60px);
+  width: 100%;
+  //   max-width: 80%;
+  padding: 50px 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "left right";
+  justify-content: center;
+  align-content: center;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: -2;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    // z-index: -1;
+    // background: rgba(#fff, 0.85);
+    background: #fff;
+  }
+
+  .left {
+    padding-top: 80px;
+    min-width: 350px;
+    grid-area: left;
+    z-index: 1;
+
+    .lg-header {
+      color: $primaryColor;
+      font-size: 55px;
+      font-weight: 900;
+      margin: 0;
+    }
+
+    .md-header {
+      color: $lightGray;
+      font-size: 40px;
+      font-weight: 100;
+      margin: 0;
+    }
+
+    .sm-header {
+      color: $lightGray;
+      font-size: 17px;
+      font-weight: 100;
+      margin: 10px 0 0;
+    }
+
+    .social-icons {
+      //   display: block;
+      line-height: 0;
+      margin: 5px 0 0;
+      a {
+        display: inline-block;
+        line-height: 0;
+        margin: 0 2px;
+
+        i {
+          color: $primaryColor;
+          font-size: 30px;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .buttons {
+      margin: 60px 0 0;
+      display: block;
+
+      a {
+        text-decoration: none;
+        margin: 0;
+      }
+    }
+  }
+
+  .right {
+    z-index: 1;
+    // padding: 30px 20px;
+    grid-area: right;
+    .portrait {
+      //   visibility: hidden;
+      background: $portrait-image;
+      background-size: contain;
+      border-radius: 50%;
+      width: 400px;
+      height: 400px;
+      float: right;
+      margin-right: 150px;
+      border: 7px #fff solid;
+      //   background-color: red;
+      position: relative;
+
+      .circle {
+        content: "";
+        position: absolute;
+        // margin: 50px;
+        top: 40px;
+        left: 95px;
+        width: 400px;
+        height: 400px;
+        z-index: -1;
+        background: $primaryColor;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+// Shadow Heading Styles
+.lg-heading-box {
+  padding: 25px 0 0px;
+  margin: 0;
+
+  .background-heading {
+    position: relative;
+    font-size: 70px;
+    color: #000;
+    opacity: 0.05;
+    // padding-left: 60px;
+    margin-left: 55px;
+  }
+
+  .forefront-heading {
+    position: absolute;
+    font-size: 43px;
+    color: $primaryColor;
+    left: 85px;
+    top: 50px;
+  }
+}
+
+#about {
+  .about-info {
+    max-width: 750px;
+    padding-left: 55px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas: "bio bio bio";
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    align-items: center;
+    color: #fff;
+
+    .bio-image {
+      display: none;
+      height: 250px;
+      grid-area: bioimage;
+      margin: auto;
+      border-radius: 50%;
+      border: $lightGray 3px solid;
+    }
+
+    .bio {
+      grid-area: bio;
+      font-size: 1.3rem;
+      line-height: 1.7rem;
+      color: $lightGray;
+
+      .text-secondary {
+        color: $primaryColor;
+      }
+      p {
+        font-size: 1.1rem;
+        font-weight: 300;
+        margin-bottom: 40px;
+
+        span {
+          font-weight: 600;
+          color: darken($color: $lightGray, $amount: 4);
+        }
+      }
+    }
+  }
+}
+
+#projects {
+  .project-box {
+    // margin: 0 auto;
+    padding-bottom: 100px;
+    text-align: center;
+    // max-width: 750px;
+
+    .title-area {
+      // grid-area: title-area;
+      .title {
+        margin: 0 auto;
+        color: $primaryColor;
+        font-weight: 700;
+        font-size: 32px;
+      }
+
+      .details {
+        margin: 0 auto;
+        padding: 30px 20px;
+        text-align: center;
+        max-width: 750px;
+        line-height: 1.7rem;
+        color: $lightGray;
+        font-weight: 300;
+        font-size: 1.1rem;
+      }
+    }
+
+    .buttons {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      .button {
+        margin: 4px 8px;
+        display: inline-block;
+        min-width: 250px;
+      }
+    }
+  }
+
+  .images {
+    margin: 70px auto 0;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .img {
+      height: 450px;
+      width: 230px;
+      border-radius: 12px;
+      img {
+        height: 100%;
+        width: 100%;
+        border-radius: 18px;
+      }
+    }
+  }
+}
+
+// Contact Page
+#contact {
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+
+    div.box {
+      font-size: 2rem;
+      border: 3px $primaryColor solid;
+      padding: 1.5rem 2.5rem;
+      margin-bottom: 3rem;
+      @include easeOut;
+      color: $lightGray;
+      // color: red;
+
+      .text-secondary {
+        color: $primaryColor;
+      }
+
+      &:hover {
+        padding: 0.5rem 1.5rem;
+        background: $primaryColor;
+        color: #fff;
+        span {
+          color: set-text-color($secondaryColor);
+        }
+      }
+    }
+  }
+}
+
+// Button Styles
+.button {
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 50px;
+  margin: 12px 0;
+  cursor: pointer;
+
+  &.button-1 {
+    background-color: $primaryColor;
+    color: #fff;
+
+    &:hover {
+      transition: all 0.4s ease-in-out;
+      transform: scale(1.1);
+      background-color: lighten($color: $primaryColor, $amount: 10);
+    }
+  }
+
+  &.button-2 {
+    background-color: #fff;
+    color: $primaryColor;
+    border: 3px $primaryColor solid;
+    line-height: 47px;
+
+    a {
+      color: $primaryColor;
+      font-size: 20px;
+      margin-right: 2px;
+    }
+
+    &:hover {
+      transition: all 0.4s ease-in-out;
+      transform: scale(1.1);
+      color: lighten($color: $primaryColor, $amount: 10);
+      border-color: lighten($color: $primaryColor, $amount: 10);
+    }
+  }
+}
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: $primaryColor;
+  color: #fff;
+  height: 73px;
+  line-height: 20px;
+  font-size: 0.8rem;
+}
+
+@import "mobile";
