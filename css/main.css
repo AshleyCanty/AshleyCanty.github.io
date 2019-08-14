@@ -274,7 +274,8 @@ body {
   #projects .images .img {
     height: 490px;
     width: 230px;
-    border-radius: 12px; }
+    border-radius: 19px;
+    border: 1px solid black;}
     #projects .images .img img {
       height: 100%;
       width: 100%;
