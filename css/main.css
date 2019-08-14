@@ -238,6 +238,8 @@ body {
         font-weight: 600;
         color: #909090; }
 
+#projects .boxes {
+  margin: 0 40px;}
 #projects .project-box {
     padding: 100px 0;
     background-color: #f3f3f3;
