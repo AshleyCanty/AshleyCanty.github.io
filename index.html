@@ -1,90 +1,507 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <title>Welcome to My Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <div class="menu-btn">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-      </div>
-
-      <nav class="menu">
-        <div class="menu-branding">
-          <div class="portrait"></div>
-        </div>
-        <ul class="menu-nav">
-          <li class="nav-item current">
-            <a href="index.html" class="nav-link">
-              Home
+<html>
+   <head>
+      <title>Grain | Conversation Intelligence and AI Sales Assistant</title>
+      <meta charseet="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+      <link rel="stylesheet" href="css/font5/all.css">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/styles.css">
+   </head>
+   <body>
+      <header class="header">
+         <div class="header__container">
+            <div class="header__logo-section">
+               <img src="css/logo.jpg">
+            </div>
+            <a href="#" class="header__hamburger-menu">
+            <i class="fa fa-bars"></i>
             </a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">
-              About Me
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="work.html" class="nav-link">
-              Projects
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="../img/Ashley-Canty-Resume.pdf" class="nav-link">
-              Resume
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">
-              How to Reach Me
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main id="home">
-      <div class="left">
-        <h1 class="lg-header">HELLO.</h1>
-        <h2 class="md-header">I am Ashley Canty</h2>
-        <h6 class="sm-header">iOS Developer</h6>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/ashley-canty-09763274/"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-          <a href="https://github.com/AshleyCanty"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a href="https://twitter.com/Kurvo1804"
-            ><i class="fab fa-twitter"></i
-          ></a>
-        </div>
-        <div class="buttons">
-          <a href="work.html">
-            <div class="button button-1">View Projects</div>
-          </a>
-          <a href="../img/Ashley-Canty-Resume.pdf">
-            <div class="button button-2">View Resume</div>
-          </a>
-        </div>
-      </div>
-      <div class="right">
-        <div class="portrait">
-          <div class="circle"></div>
-        </div>
-      </div>
-    </main>
-
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
+            <div class="header__menu">
+               <ul class="header__menu-tabs">
+                  <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Product <i class="fa fa-angle-down"></i></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">Product Updates</a></li>
+                        <li><a href="#">Security</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Use Cases <i class="fa fa-angle-down"></i></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">Product & User Research</a></li>
+                        <li><a href="#">Customer Success</a></li>
+                        <li><a href="#">Hiring & Recruiting</a></li>
+                        <li><a href="#">Remote Teams</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Company <i class="fa fa-angle-down"></i></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Customers</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Resources <i class="fa fa-angle-down"></i></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Self-guided Product Tour</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                     </ul>
+                  </li>
+                  <li class="header__menu-tab-item"><a href="#">Pricing</a></li>
+               </ul>
+            </div>
+            <div class="header__login">
+               <a href="#" class="header__login-button">Login</a>
+               <a href="#" class="header__demo-button default-button green-demo-button">Book a Demo</a>
+            </div>
+         </div>
+      </header>
+      <section class="main-container">
+         <div class="content-area">
+            <div class="hero section-container">
+               <div class="hero__top-section">
+                  <h1 class="hero__top-section-large-title n3-font">Conversation Intelligence<br><span class="n3-font">Made Simple</span></h1>
+                  <h4 class="hero__top-section-sub-title">Grain automates note-taking, record-keeping, and insight-capture so you can spend your time where it matters most — coaching your team and closing deals.</h4>
+                  <div class="hero__top-section-buttons">
+                     <a href="#" class="default-button black-button">Try for Free</a>
+                     <a href="#" class="default-button green-demo-button">Book A Demo</a>
+                  </div>
+               </div>
+               <div class="hero__bottom-section">
+                  <div class="hero__gradient-wrapper">
+                     <div class="hero__gradient-background"></div>
+                  </div>
+                  <div class="hero__background-wrapper">
+                     <div id="green-box" class="hero__background-box"></div>
+                     <div id="gray-box" class="hero__background-box"></div>
+                  </div>
+                  <div class="hero__image-wrapper">
+                     <img src="css/grain-quest-demo.jpeg">
+                  </div>
+               </div>
+            </div>
+            <div class="trusted-companies section-container">
+               <h3 class="trusted-companies__title n3-font">10k+ companies trust Grain</h3>
+               <div class="trusted-companies__gallery">
+                  <div class="trusted-companies__gallery-top-row">
+                     <img src="css/trusted-companies/company1.png" class="trusted-companies__gallery-item">
+                     <img src="css/trusted-companies/company2.png" class="trusted-companies__gallery-item">
+                     <img src="css/trusted-companies/company3.png" class="trusted-companies__gallery-item">
+                     <img src="css/trusted-companies/company4.png" class="trusted-companies__gallery-item">
+                     <img src="css/trusted-companies/company5.png" class="trusted-companies__gallery-item">
+                  </div>
+                  <div class="trusted-companies__gallery-bottom-row">
+                     <img src="css/trusted-companies/company6.png" class="trusted-companies__gallery-item">
+                     <img src="css/trusted-companies/company7.png" class="trusted-companies__gallery-item">
+                     <img src="css/trusted-companies/company8.png" class="trusted-companies__gallery-item">
+                     <img src="css/trusted-companies/company9.png" class="trusted-companies__gallery-item">
+                     <img src="css/trusted-companies/company10.png" class="trusted-companies__gallery-item">
+                  </div>
+               </div>
+            </div>
+            <div class="features section-container">
+               <h6 class="features__title section-small-title">Features</h6>
+               <div class="features__details section-details">
+                  <h1 class="features__sub-title n3-font section-sub-title">Everything you need, nothing you don't</h1>
+                  <p class="features__paragraph section-paragraph">Double your revenue without doubling your budget. Grain is the easy-to-use<br>conversation intelligence platform for growing revenue teams.</p>
+               </div>
+               <div class="features__grid">
+                  <a href="#ai-meeting-feature" class="features__grid-item">
+                     <div class="features__grid-icon">
+                        <i class="fa fa-star"></i>
+                     </div>
+                     <h3 n3-font>AI Meeting<br>Notes</h3>
+                     <p>Stay fully present during meetings, note-taking is npw fully automatic</p>
+                  </a>
+                  <a href="#meeting-automation-feature" class="features__grid-item">
+                     <div class="features__grid-icon">
+                        <i class="fa fa-network-wired"></i>
+                     </div>
+                     <h3 n3-font>Meeting<br>Automation</h3>
+                     <p>Skip the data entry, notes auto-sync to CRM Contact & Deal records</p>
+                  </a>
+                  <a href="#coaching-feature" class="features__grid-item">
+                     <div class="features__grid-icon">
+                        <i class="fa fa-check-square"></i>
+                     </div>
+                     <h3 n3-font>Coaching &<br>Collaboration</h3>
+                     <p>Train and onboard reps faster, playlists and comments make coaching easy</p>
+                  </a>
+                  <a href="#deal-analytics-feature" class="features__grid-item">
+                     <div class="features__grid-icon">
+                        <i class="fa fa-chart-line"></i>
+                     </div>
+                     <h3 n3-font>Deal Analytics &<br>Insights</h3>
+                     <p>Close more deals, smart topics and key account alerts improve visibility</p>
+                  </a>
+               </div>
+            </div>
+            <div class="explained-features section-container">
+               <div id="ai-meeting-feature" class="explained-feature .ai-meeting">
+                  <div class="explained-feature__blurred-bg"></div>
+                  <div class="explained-feature__container">
+                     <div class="explained-feature__header">
+                        <div class="explained-feature__title-box">
+                           <div class="explained-features__icon features__grid-icon">
+                              <i class="fa fa-star"></i>
+                           </div>
+                           <span class="n3-font">AI Meeting Notes</span>
+                        </div>
+                        <h1 class="explained-feature__summary n3-font large-summary">Stay fully present during meetings, note-taking is now automatic</h1>
+                     </div>
+                     <div class="explained-feature__content">
+                        <div class="explained-feature__mini-boxes">
+                           <div class="explained-feature__mini-box">
+                              <h5 class="n3-font">AI Notes & Templates</h5>
+                              <p>Grain will join your calendar meetings to generate a recording, transcript, and AI-powered notes with the content you want, in the format you want</p>
+                           </div>
+                           <div class="explained-feature__mini-box">
+                              <h5 class="n3-font">Custom AI Note Prompts</h5>
+                              <p>Never settle for generic AI outputs. Ask questions of the transcript until satisfied with the response, then add it to your notes</p>
+                           </div>
+                           <div class="explained-feature__mini-box">
+                              <h5 class="n3-font">Video Highlights & Sharing</h5>
+                              <p>Click any AI note or select text in the transcript to create a video highlight you can share anywhere you can paste a link</p>
+                           </div>
+                        </div>
+                        <img src="/css/features/feature1.png" class="explained-feature__image">
+                     </div>
+                  </div>
+               </div>
+               <div id="meeting-automation-feature" class="explained-feature .meeting-automation">
+                  <div class="explained-feature__blurred-bg"></div>
+                  <div class="explained-feature__container">
+                     <div class="explained-feature__header">
+                        <div class="explained-feature__title-box">
+                           <div class="explained-features__icon features__grid-icon">
+                              <i class="fa fa-network-wired"></i>
+                           </div>
+                           <span class="n3-font">Meeting Automation</span>
+                        </div>
+                        <h1 class="explained-feature__summary n3-font large-summary">
+                        Skip the data entry, notes auto-sync to CRM Contact & Deal records
+                     </div>
+                     <div class="explained-feature__content">
+                        <img src="/css/features/feature2.png" class="explained-feature__image">
+                        <div class="explained-feature__mini-boxes">
+                           <div class="explained-feature__mini-box">
+                              <h5 class="n3-font">Sync AI Notes w/ CRMs</h5>
+                              <p>Grain matches meeting participants with CRM records to automatically sync the AI notes as an activity on the Contact or Deal record</p>
+                           </div>
+                           <div class="explained-feature__mini-box">
+                              <h5 class="n3-font">CRM Field Enrichment</h5>
+                              <p>Automatically enrich your CRM fields whenever Grain detects a match with data contained within your meeting transcripts</p>
+                           </div>
+                           <div class="explained-feature__mini-box">
+                              <h5 class="n3-font">Al-powered Followup Emails</h5>
+                              <p>Save hours per week prepping meeting follow-ups by having Grain write them for you using the transcript content</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div id="coaching-feature" class="explained-feature .coaching">
+                  <div class="explained-feature__blurred-bg"></div>
+                  <div class="explained-feature__container">
+                     <div class="explained-feature__header">
+                        <div class="explained-feature__title-box">
+                           <div class="explained-features__icon features__grid-icon">
+                              <i class="fa fa-check-square"></i>
+                           </div>
+                           <span class="n3-font">Coaching & Collaboration</span>
+                        </div>
+                        <h1 class="explained-feature__summary n3-font large-summary">Train and onboard reps faster, playlists and comments make coaching easy</h1>
+                     </div>
+                     <div class="explained-feature__content">
+                        <div class="explained-feature__mini-boxes">
+                           <div class="explained-feature__mini-box">
+                              <h5 class="n3-font">Playlist & Reels</h5>
+                              <p>All meetings belong to your team Library but playlists and reels make it easy to curate, create, and share team training content</p>
+                           </div>
+                           <div class="explained-feature__mini-box">
+                              <h5 class="n3-font">Time-stamped Comments</h5>
+                              <p>No more game of telephone, select any transcript text to leave a comment for your reps at the exact relevant moment</p>
+                           </div>
+                           <div class="explained-feature__mini-box">
+                              <h5 class="n3-font">Timeline & Coaching Stats</h5>
+                              <p>Everyone knows when their reps talk too much, but with coaching stats you finally have the data too</p>
+                           </div>
+                        </div>
+                        <img src="/css/features/feature3.png" class="explained-feature__image">
+                     </div>
+                  </div>
+               </div>
+               <div id="deal-analytics-feature" class="explained-feature .deal-analytics">
+                  <div class="explained-feature__blurred-bg"></div>
+                  <div class="explained-feature__container">
+                     <div class="explained-feature__header">
+                        <div class="explained-feature__title-box">
+                           <div class="explained-features__grid-icon features__grid-icon">
+                              <i class="fa fa-star"></i>
+                           </div>
+                           <span class="n3-font">Deal Analytics & Insights</span>
+                        </div>
+                        <h1 class="explained-feature__summary large-summary">Close more deals, smart topics and key account alerts improve visibility</h1>
+                     </div>
+                     <div class="explained-feature__content">
+                        <img src="/css/features/feature4.png" class="explained-feature__image">
+                        <div class="explained-feature__mini-boxes">
+                           <div class="explained-feature__mini-box">
+                              <h5 class="n3-font">Topic Trackers</h5>
+                              <p>Ever wished to see all topically-related moments mentioned across your teams’ calls? Topic trackers give you x-ray vision</p>
+                           </div>
+                           <div class="explained-feature__mini-box">
+                              <h5 class="n3-font">Keyword Alerts</h5>
+                              <p>Simply set keyword dictionary and enable notifications to be alerted whenever Grain detects an exact match</p>
+                           </div>
+                           <div class="explained-feature__mini-box">
+                              <h5 class="n3-font">Deal Insights</h5>
+                              <p>What gets measured gets managed, and Grain’s deal insights make it easier than ever to track the activity and status of any deal</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="integrations section-container">
+               <h6 class="integrations__title section-small-title">Integrations</h6>
+               <div class="integrations__details section-details">
+                  <h1 class="integrations__sub-title n3-font section-sub-title large-summary">Grain integrations + sharing destinations</h1>
+                  <p class="integrations__paragraph section-paragraph">Native integrations with Hubspot, Salesforce, Zapier, Slack, and more means it's effortless to share insights and enrich your communications with video</p>
+               </div>
+               <a href="#" class="integrations__explore-link plain-link">
+                  <div class="integrations__explore-button">
+                     Explore Integrations <i class="fa fa-arrow-right"></i>
+                  </div>
+               </a>
+               <div class="integrations__image">
+                  <img src="css/integrations.png">
+               </div>
+            </div> 
+            <div class="testimonials__wrapper">
+               <div class="testimonials section-container">
+                  <div class="testimonials__padded-container container">
+                     <div class="testimonials">
+                        <h6 class="testimonials__title section-small-title">Testimonials</h6>
+                        <div class="testimonials__carousel">
+                           <div class="testimonial__box">
+                              <p class="testimonial__text"> “Grain allows me to <span class="testimonial__focused-text">focus on the calls, focus on the customers, and focus on what they need”</span></p>
+                              <div class="testimonial__bottom-info">
+                                 <div class="testimonial__profile-wrapper">
+                                    <img src="css/testimonial-user-1.png" class="testimonial__user-image">
+                                    <div class="testimonial__user-name-title">
+                                       <h5>Russ Thau</h5>
+                                       <p>VP of Revenue</p>
+                                    </div>
+                                    <img src="css/testimonial-logo-1.png" class="testimonial__user-company-logo">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="testimonial__carousel-buttons">
+                              <a href="#" class=""><i class="fa fa-angle-left"></i></a>
+                              <a href="#" class=""><i class="fa fa-angle-right"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="verdict">
+                        <div class="verdict__wrapper">
+                           <div class="verdict__left-box">
+                              <h3>The Verdict is in</h3>
+                              <p>Boost revenue, gain insights that help you grow and scale faster</p>
+                           </div>
+                           <div class="verdict__right-box">
+                              <img src="css/stats.png" class="verdict__stats-image">
+                              <img src="css/stars.png" class="verdict__stars-image">
+                              <h6>Rated 4.6 by 255 people on G2.com</h6>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="privacy section-container">
+               <h6 class="privacy__title section-small-title">Privacy & Security</h6>
+               <div class="privacy__box-wrapper">
+                  <div class="privacy__box box1">
+                     <div class="privacy__box-details">
+                        <div class="privacy__box-text">
+                           <h1 class="privacy__sub-title n3-font large-summary">It's your data,<br>you're in control.</h1>
+                           <p class="section-paragraph">Grain ensures the privacy of every call participant above all else. Prioritizing your privacy is a core value that has influenced everything we’ve made since day one.</p>
+                        </div>
+                        <div class="spacer"></div>
+                        <a href="#" class="privacy__explore-link plain-link">
+                           <div class="privacy__explore-button">
+                              Learn about Privacy <i class="fa fa-arrow-right"></i>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="privacy__image-column">
+                        <img src="css/privacy.png" class="privacy__box-image">
+                     </div>
+                  </div>
+                  <div class="privacy__box box2">
+                     <div class="privacy__image-column">
+                        <img src="css/security.png" class="privacy__box-image">
+                     </div>
+                     <div class="privacy__box-details">
+                        <div class="privacy__box-text">
+                           <h1 class="privacy__sub-title n3-font large-summary">Your security is our top priority</h1>
+                           <p class="section-paragraph">Data protection is a vital for every business, but especially yours. At Grain, we take every measure possible to ensure your data is protected and safe.</p>
+                        </div>
+                        <div class="spacer"></div>
+                        <a href="#" class="privacy__explore-link plain-link">
+                           <div class="privacy__explore-button">
+                              Learn about Security <i class="fa fa-arrow-right"></i>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="grain-diverse">
+               <div class="spiral spiral__wrapper">
+                  <div class="spiral__top-container section-container">
+                     <img src="css/spiral.png" class="grain-diverse__spiral-image">
+                     <img src="css/white-gradient-cover.png" class="white-gradient-cover">
+                     <img src="css/spiral-people.png" class="grain-diverse__spiral-people-image">
+                     <div class="grain-diverse__flex">
+                        <div class="grain-diverse__text">
+                           <h1 class="large-summary n3-font">Grain is for everyone, not just sales</h1>
+                           <p class="section-paragraph">Grain's universal feature set & accessible pricing works for the whole company.
+                           </p>
+                        </div>
+                     </div>
+   
+                  </div>
+                  <div class="spiral__bottom-container section-container">
+                     <a href="#" class="spiral__menu-button">
+                        <h3 class="spiral__menu-heading">Customer Success</h3>
+                        <div class="spiral__explore-link plain-link">
+                           <span class="spiral__explore-button">
+                              Learn More<i class="fa fa-arrow-right"></i>
+                           </span>
+                        </div>
+                     </a>
+                     <a href="#" class="spiral__menu-button">
+                        <h3 class="spiral__menu-heading">User Research & Product Insights</h3>
+                        <div class="spiral__explore-link plain-link">
+                           <span class="spiral__explore-button">
+                              Learn More<i class="fa fa-arrow-right"></i>
+                           </span>
+                        </div>
+                     </a>
+                     <a href="#" class="spiral__menu-button">
+                        <h3 class="spiral__menu-heading">Remote Team Meetings</h3>
+                        <div class="spiral__explore-link plain-link">
+                           <span class="spiral__explore-button">
+                              Learn More<i class="fa fa-arrow-right"></i>
+                           </span>
+                        </div>
+                     </a>
+                     <a href="#" class="spiral__menu-button">
+                        <h3 class="spiral__menu-heading">Hiring & Recruiting</h3>
+                        <div class="spiral__explore-link plain-link">
+                           <span class="spiral__explore-button">
+                              Learn More<i class="fa fa-arrow-right"></i>
+                           </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="get-started section-container">
+                  <div class="get-started__box">
+                     <div class="get-started__text-box">
+                        <h1 class="large-summary n3-font">Get started with Grain</h1>
+                        <p class="section-paragraph">Securely record, transcribe, highlight, and share every video call</p>
+                        <div class="get-started__buttons section-buttons">
+                           <a href="#" class="default-button black-button">Try for Free</a>
+                           <a href="#" class="default-button green-demo-button">Book A Demo</a>
+                        </div>
+                     </div>
+                     <img src="css/get-started-1.png" id="get-started-left-image" class="get-started__image">
+                        <img src="css/get-started-2.png" id="get-started-right-image" class="get-started__image">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="footer__wrapper">
+         <div class="section-container">
+            <div class="footer__top-container">
+               <div class="footer__menu">
+                  <div class="footer__section-list">
+                     <div class="footer__section-list-title">Product</div>
+                     <div class="footer__section-list-options">
+                        <a href="#" class="footer__section-list-item">Integrations</a>
+                        <a href="#" class="footer__section-list-item">Product Updates</a>
+                        <a href="#" class="footer__section-list-item">Security</a>
+                        <a href="#" class="footer__section-list-item">Pricing</a>
+                     </div>
+                  </div>
+                  <div class="footer__section-list">
+                     <div class="footer__section-list-title">Use Cases</div>
+                     <div class="footer__section-list-options">
+                        <a href="#" class="footer__section-list-item">Sales</a>
+                        <a href="#" class="footer__section-list-item">Product & Research</a>
+                        <a href="#" class="footer__section-list-item">Customer Success</a>
+                        <a href="#" class="footer__section-list-item">Hiring & Recruiting</a>
+                        <a href="#" class="footer__section-list-item">Remote Teams</a>
+                     </div>
+                  </div>
+                  <div class="footer__section-list">
+                     <div class="footer__section-list-title">Company</div>
+                     <div class="footer__section-list-options">
+                        <a href="#" class="footer__section-list-item">About Us</a>
+                        <a href="#" class="footer__section-list-item">Careers</a>
+                        <a href="#" class="footer__section-list-item">Press</a>
+                        <a href="#" class="footer__section-list-item">Contacts Us</a>
+                     </div>
+                  </div>
+                  <div class="footer__section-list">
+                     <div class="footer__section-list-title">Resources</div>
+                     <div class="footer__section-list-options">
+                        <a href="#" class="footer__section-list-item">Blog</a>
+                        <a href="#" class="footer__section-list-item">Self-guided Product Tour</a>
+                        <a href="#" class="footer__section-list-item">Help Center</a>
+                        <a href="#" class="footer__section-list-item">Sales Coaching Guide</a>
+                        <a href="#" class="footer__section-list-item">Sales Coaching Template</a>
+                        <a href="#" class="footer__section-list-item">Changelog</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer__connect">
+                  <a href="#" class="footer__email"><i class="fa fa-envelope"></i> hello@grain.com</a>
+                  <div class="footer__socials">
+                     <a href="#">
+                        <img src="css/linkedin.png" class="social-image">
+                     </a>
+                     <a href="#"><img src="css/x.png" class="social-image"></a>
+                     <a href="#"><img src="css/youtube.png" class="social-image"></a>
+                     <a href="#"><img src="css/facebook.png" class="social-image"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer__bottom-container">
+            <dic class="footer__bottom-wrapper">
+               <div class="footer__logo-section">
+                  <img src="css/logo.jpg">
+               </div>
+               <p>© 2024 Grain Intelligence Inc. All rights reserved.</p>
+            </dic>
+         </div>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <script src="/path/to/flickity.pkgd.min.js"></script>
+   </body>
 </html>
