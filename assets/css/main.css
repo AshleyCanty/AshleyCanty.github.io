@@ -51,7 +51,7 @@ Description: Gerold - Personal Portfolio HTML5 Template
   ------------------------------------ */
 	--tj-body: #dddddd;
 	--tj-white: #ffffff;
-	--tj-off-white: #f6f3fc;
+	--tj-off-white: #f8eedd; /*#f6f3ee;*/
 	--tj-black: #000000;
 	--tj-black-2: #050709;
 	--tj-black3: #5c6266;
@@ -59,14 +59,14 @@ Description: Gerold - Personal Portfolio HTML5 Template
 	--tj-h3-black: #0b0410;
 	--tj-heading-primary: #102039;
 	--tj-heading-secondary: #ea1826;
-	--tj-theme-primary: #8750f7;
+	--tj-theme-primary: #df9c24; /* #fdb739; */
 	--tj-theme-primary-1: #2400ff;
 	--tj-theme-primary-2: #9b8dff;
 	--tj-theme-primary-3: #4654f9;
 	--tj-theme-h3-primary-1: #814cec;
-	--tj-theme-secondary: #2a1454;
+	--tj-theme-secondary: #53432f;
 	--tj-theme-accent-1: #0f0715;
-	--tj-theme-accent-2: #140c1c;
+	--tj-theme-accent-2: #1c160c;
 	--tj-grey-1: #747779;
 	--tj-grey-2: #d9d9d9;
 	--tj-grey-3: #dddddd;
@@ -793,7 +793,7 @@ body.loaded {
 	z-index: 100;
 	opacity: 0;
 	transition: 0.3s;
-	box-shadow: 0 0 30px rgba(135, 80, 247, 0.2);
+	box-shadow: 0 0 30px rgba(243, 182, 76, 0.2);
 }
 .tj-header-area.header-2.sticky {
 	top: 0;
