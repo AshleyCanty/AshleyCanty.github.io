@@ -1,0 +1,29 @@
+<mj-raw>
+  <!-- Top Menu Banner -->
+</mj-raw>
+<mj-section css-class="top-menu" padding="0">
+  <mj-group>
+    <mj-column css-class="top-menu-column" padding="0" width="167px">
+      <mj-image align="center" css-class="top-menu-image" padding="0" href="https://www.kohls.com" src="./assets/menu-home.jpg" alt="menu option for home" />
+    </mj-column>
+    <mj-column css-class="top-menu-column" padding="0" width="115px">
+      <mj-image align="center" css-class="top-menu-image" padding="0" href="https://www.kohls.com" src="./assets/menu-women.jpg" alt="menu option for women" />
+    </mj-column>
+    <mj-column css-class="top-menu-column" padding="0" width="88px">
+      <mj-image align="center" css-class="top-menu-image" padding="0" href="https://www.kohls.com" src="./assets/menu-men.jpg" alt="menu option for men" />
+    </mj-column>
+    <mj-column css-class="top-menu-column" padding="0" width="83px">
+      <mj-image align="center" css-class="top-menu-image" padding="0" href="https://www.kohls.com" src="./assets/menu-kids.jpg" alt="menu option for kids" />
+    </mj-column>
+    <mj-column css-class="top-menu-column" padding="0" width="187px">
+      <mj-image align="center" css-class="top-menu-image" padding="0" href="https://www.kohls.com" src="./assets/menu-clearance.jpg" alt="menu option for clearance" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-section padding="0">
+  <mj-group>
+    <mj-column padding="0">
+      <mj-divider border-width="1px" border-color="#C2C5C8" padding="30px 0"></mj-divider>
+    </mj-column>
+  </mj-group>
+</mj-section>

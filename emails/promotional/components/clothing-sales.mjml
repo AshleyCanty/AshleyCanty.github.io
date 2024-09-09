@@ -1,0 +1,78 @@
+<mj-raw>
+  <!-- Clothing Sale - Single Image - Banner 7 - Gif -->
+</mj-raw>
+<mj-section padding="50px 0 0">
+  <mj-column>
+    <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-7.jpg" alt="clothes on sale" />
+  </mj-column>
+</mj-section>
+
+<mj-raw>
+  <!-- Clothing Sale - Two Images - Banner 8 - Gif -->
+</mj-raw>
+<mj-section padding="0">
+  <mj-group>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-8-left.jpg" alt="clothes on sale" />
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-8-right.jpg" alt="shoes on sale" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+
+<mj-raw>
+  <!-- Clothing Sale - Two Images - Banner 9 - Gif -->
+</mj-raw>
+<mj-section padding="0">
+  <mj-group>
+    <mj-column padding="0">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-9-left.jpg" alt="shirts on sale" />
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-9-right.jpg" alt="towels on sale" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+
+<mj-raw>
+  <!-- Clothing Sale - Two Images - Banner 10 - Gif -->
+</mj-raw>
+<mj-section padding="0">
+  <mj-group>
+    <mj-column padding="0">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-10-left.jpg" alt="women clothes on sale" />
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-10-right.jpg" alt="men clothes on sale" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+
+<mj-raw>
+  <!-- Clothing Sale - Two Images - Banner 11 - Gif -->
+</mj-raw>
+<mj-section padding="0">
+  <mj-group>
+    <mj-column padding="0">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-11-left.jpg" alt="children clothes on sale" />
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-11-right.jpg" alt="purses on sale" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+
+<mj-raw>
+  <!-- Clothing Sale - Two Images - Banner 12 - Gif -->
+</mj-raw>
+<mj-section padding="0">
+  <mj-group>
+    <mj-column padding="0">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-12-left.jpg" alt="bed sheets on sale" />
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-12-right.jpg" alt="vacuums on sale" />
+    </mj-column>
+  </mj-group>
+</mj-section>

@@ -1,0 +1,56 @@
+<mj-raw>
+  <!-- Clearance Menu - Banner 14 -->
+</mj-raw>
+<mj-section padding="0">
+  <mj-group>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-14-menu-men.jpg" alt="menu option for men" />
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-14-menu-women.jpg" alt="menu option for women" />
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-14-menu-boys.jpg" alt="menu option for boys" />
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-14-menu-girls.jpg" alt="menu option for girls" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-section padding="0">
+  <mj-group>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-14-menu-home.jpg" alt="menu option for home" />
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-14-menu-workout.jpg" alt="menu option for workout" />
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-14-menu-shoes.jpg" alt="menu option for shoes" />
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-14-menu-jewelry.jpg" alt="menu option for jewelry" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-section padding="0">
+  <mj-group>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-14-menu-10under.jpg" alt="menu option for $10 and under" />
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-14-menu-20under.jpg" alt="menu option for $20 and under" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+
+<mj-raw>
+  <!-- Discount Coupon - Banner 15 -->
+</mj-raw>
+<mj-section padding="0">
+  <mj-group>
+    <mj-column padding="0">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-15.png" alt="20 percent discount coupon" />
+    </mj-column>
+  </mj-group>
+</mj-section>

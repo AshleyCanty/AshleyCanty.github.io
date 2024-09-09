@@ -1588,7 +1588,7 @@ body.loaded {
 .portfolio-filter .button-group {
 	background-color: var(--tj-black-2);
 	border-radius: 60px;
-	padding: 6px 8px;
+	padding: 6px 0px;
 	display: inline-block;
 }
 .portfolio-filter .button-group button {

@@ -1,0 +1,63 @@
+<mj-raw>
+  <!-- Footer -->
+</mj-raw>
+<mj-section padding="0">
+  <mj-column padding="0">
+    <mj-spacer padding="0" height="30px"></mj-spacer>
+  </mj-column>
+</mj-section>
+<mj-section css-class="footer-menu" background-color="#E1D4C3" padding="0 15px">
+  <mj-group>
+    <mj-column background-color="#E1D4C3" padding="0" width="146px">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/footer-menu-option-card.jpg" alt="footer menu option for kohl's card" />
+    </mj-column>
+    <mj-column padding="0" width="181px">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/footer-menu-option-service.jpg" alt="footer menu option for services" />
+    </mj-column>
+    <mj-column padding="0" width="136px">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/footer-menu-option-store.jpg" alt="footer menu option for online store" />
+    </mj-column>
+    <mj-column padding="0" width="177px">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/footer-menu-option-coupons.jpg" alt="footer menu option for coupons" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-section css-class="footer-socials" background-color="#E1D4C3" padding="0 15px">
+  <mj-group>
+    <mj-column padding="0" width="146px">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/footer-socials-left.jpg" alt="footer social spacer" />
+    </mj-column>
+    <mj-column width="64px">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/footer-fb.jpg" alt="footer social for facebook" />
+    </mj-column>
+    <mj-column width="64px">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/footer-tik.jpg" alt="footer social for tik tok" />
+    </mj-column>
+    <mj-column width="72px">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/footer-pin.jpg" alt="footer social for pinterest" />
+    </mj-column>
+    <mj-column width="83px">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/footer-ig.jpg" alt="footer social for instagram" />
+    </mj-column>
+    <mj-column width="211px">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/footer-yt.jpg" alt="footer social for youtube" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-section css-class="footer-app-stores" background-color="#E1D4C3" padding="10px 15px 0">
+  <mj-group>
+    <mj-column padding="0">
+      <mj-image align="right" width="122px" padding="0 15px 0 0" href="https://www.kohls.com" src="./assets/footer-apple.png" alt="footer store button for apple" />
+    </mj-column>
+    <mj-column padding="0">
+      <mj-image align="left" width="100px" padding="0 0 0 15px" href="https://www.kohls.com" src="./assets/footer-android.png" alt="footer store button for android" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-section css-class="footer-menu-text" background-color="#E1D4C3" padding="10px 15px 0">
+  <mj-group>
+    <mj-column padding="0">
+      <mj-image padding="0" href="https://www.kohls.com" src="./assets/footer-centered-text.png" alt="footer centered text" />
+    </mj-column>
+  </mj-group>
+</mj-section>

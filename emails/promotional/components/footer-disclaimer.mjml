@@ -1,0 +1,85 @@
+<mj-raw>
+        <!-- Disclaimer Text -->
+      </mj-raw>
+      <mj-section padding="40px 0 0">
+        <mj-column>
+          <mj-text padding="0" css-class="footer-text" color="#999999" line-height="1.5">
+            Here are the details:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20px 0 0">
+        <mj-column>
+          <mj-text padding="0" css-class="footer-text bold" font-weight="bold" color="#999999" line-height="1.5">
+            COUPON ELIGIBILITY
+          </mj-text>
+          <mj-text padding="5px 0 0" font-weight="normal" color="#999999" line-height="1.5">
+            You can use coupons on qualifying brands such as Apt. 9, Croft & Barrow, FLX, Jumping Beans, SO, Sonoma Goods For Life, Tek Gear, The Big One, LC Lauren Conrad, Nine West, Simply Vera Vera Wang, and more. See <a class="footer-text-link" href="https://kohls.com">Kohls.com/details</a> for a full list of included brands.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20px 0 0">
+        <mj-column>
+          <mj-text padding="0" css-class="footer-text bold" font-weight="bold" color="#999999" line-height="1.5">
+            KOHL'S CASH
+          </mj-text>
+          <mj-text padding="5px 0 0" font-weight="normal" color="#999999" line-height="1.5">
+            For more information on how Kohl’s Cash works, including how to earn and redeem your Kohl’s Cash, please visit <a class="footer-text-link" href="https://kohls.com">Kohls.com/KohlsCash.</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20px 0 0">
+        <mj-column>
+          <mj-text padding="0" css-class="footer-text bold" font-weight="bold" color="#999999" line-height="1.5">
+            KOHL’S REWARDS
+          </mj-text>
+          <mj-text padding="5px 0 0" font-weight="normal" color="#999999" line-height="1.5">
+            Kohl's Rewards® are earned on the transaction subtotal for qualifying Rewards® purchases at a rate of 7.5% when using a Kohl's Card or 5% with any other tender type. Qualifying Rewards purchases are calculated after all coupons are applied, before shipping, fees or tax is imposed and do not include the purchase of gift cards. For program details and full terms, please visit <a class="footer-text-link" href="https://kohls.com">Kohls.com/KohlsRewards.</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20px 0 0">
+        <mj-column>
+          <mj-text padding="0" css-class="footer-text bold" font-weight="bold" color="#999999" line-height="1.5">
+            SEPHORA PURCHASES
+          </mj-text>
+          <mj-text padding="5px 0 0" font-weight="normal" color="#999999" line-height="1.5">
+            Earn Kohl’s Rewards® and Sephora Beauty Insider points on Sephora at Kohl’s purchases. Coupons and Kohl’s Cash® do not apply.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20px 0 0">
+        <mj-column>
+          <mj-text padding="0" css-class="footer-text bold" font-weight="bold" color="#999999" line-height="1.5">
+            PRICES GOOD FOR A LIMITED TIME UNLESS OTHERWISE INDICATED.
+          </mj-text>
+          <mj-text padding="5px 0 0" font-weight="normal" color="#999999" line-height="1.5">
+            Pricing, promotions and merchandise availability may vary by location and at Kohls.com. “Sale” prices and percentage savings offered are discounts from Kohl's Regular (Reg.) or Original (Orig.) prices, and are valid on selected styles of merchandise unless otherwise indicated. The Reg. or Orig. price of an item is the former or future offered price for the item or a comparable item by Kohl's or another retailer. Actual sales may not have been made at the Reg. or Orig. prices, and intermediate markdowns may have been taken. Orig. prices may not have been in effect during the past 90 days or in all trade areas. Merchandise could be offered at the same or lower “Sale” prices during future promotional events beginning on or after the last day of this advertised event. The following merchandise are excluded from “Entire Stock” promotions in this advertisement: Clearance, Kohl's Cares® cause or other charitable items, Licensed Team, Sephora at Kohl's, emerging brands and Kohl's Online-Exclusive items. In some events, actual savings may exceed the percent savings shown. KOHL'S® and KOHL'S brand names are trademarks of KIN, Inc. ©2024 Kohl's, Inc. For any featured Price Break merchandise, the “previous sale” price represents sale prices recently advertised by Kohl's.
+          </mj-text>
+
+          <mj-text padding="15px 0 0" font-weight="normal" color="#999999" line-height="1.5">
+            This mailbox is unattended, so please do not reply to this message. If you no longer wish to receive emails from <a class="footer-text-link-simple" href="https://kohls.com">Kohls.com</a>, unsubscribe <a class="footer-text-link-simple" href="https://kohls.com">here</a>. Please allow up to seven days for your email address to be removed. For other inquiries, visit <a class="footer-text-link-simple" href="https://kohls.com">cs.kohls.com</a>, or write us at Kohl's, Attention: Customer Service, PO Box 3120, Milwaukee, WI 53201-3120.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="15px 0 0">
+        <mj-column>
+          <mj-text padding="5px 0 0" font-weight="normal" color="#999999" line-height="1.5">
+            <a class="footer-text-link-simple" href="https://kohls.com">Find a Kohl's</a> near you!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="15px 0 0">
+        <mj-column>
+          <mj-text padding="5px 0 60px" font-weight="normal" color="#999999" line-height="1.5">
+            Was this forwarded from a friend? <a class="footer-text-link-simple" href="https://kohls.com">Click here to sign up</a> and we'll send Sale Alerts straight to your inbox. You'll also save 15% on your next purchase in store or online!
+          </mj-text>
+        </mj-column>
+      </mj-section>
