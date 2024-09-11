@@ -96,6 +96,10 @@
         background-color: #fff;
         text-decoration: none;
       }
+
+      .giveaway-table table {
+        max-width: 640px !important;
+      }
     </mj-style>
 
   </mj-head>
@@ -107,7 +111,7 @@
       </mj-raw>
       <mj-section padding="0">
         <mj-column>
-          <mj-image padding="0" href="https://www.kohls.com" src="./assets/kohls-name.jpg" alt="kohls name" />
+          <mj-image padding="0" href="https://www.kohls.com" src="https://i.postimg.cc/zBt2NnGh/kohls-name.jpg" alt="kohls name" />
         </mj-column>
       </mj-section>
 
@@ -121,7 +125,7 @@
       </mj-raw>
       <mj-section padding="0">
         <mj-column>
-          <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-1.jpg" alt="lower prices banner" />
+          <mj-image padding="0" href="https://www.kohls.com" src="https://i.postimg.cc/rp9Yn66Q/banner-1.jpg" alt="lower prices banner" />
         </mj-column>
       </mj-section>
 
@@ -130,7 +134,7 @@
       </mj-raw>
       <mj-section padding="0">
         <mj-column>
-          <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-2.jpg" alt="20 percent off banner" />
+          <mj-image padding="0" href="https://www.kohls.com" src="https://i.postimg.cc/1t57bWsP/banner-2.jpg" alt="20 percent off banner" />
         </mj-column>
       </mj-section>
 
@@ -139,67 +143,73 @@
       </mj-raw>
       <mj-section padding="0">
         <mj-column>
-          <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-3.gif" alt="big giveaway banner" />
+          <mj-image padding="0" href="https://www.kohls.com" src="https://i.postimg.cc/D0Sjw8SM/banner-3.gif" alt="big giveaway banner" />
         </mj-column>
       </mj-section>
 
       <mj-raw>
         <!-- Dont Miss Millions Banner Gif -->
       </mj-raw>
+
       <mj-section padding="0">
-        <mj-column padding="0" width="100%">
-          <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-3-top.jpg" alt="dont miss million in giveaways" />
+        <mj-column padding="0">
+          <mj-image padding="0" href="https://www.kohls.com" src="https://i.postimg.cc/KjJyTKfr/giveaway-banner.png" alt="dont miss million in giveaways" />
         </mj-column>
-        <mj-group width="100%">
-          <mj-column padding="0" width="292px">
-            <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-3-bottom-left.jpg" alt="while supplies last" />
-          </mj-column>
-          <mj-column padding="0" width="52px">
-            <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-3-bottom-middle.jpg" alt="more details" />
-          </mj-column>
-          <mj-column padding="0" width="296px">
-            <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-3-bottom-right.jpg" />
-          </mj-column>
-        </mj-group>
       </mj-section>
+
 
       <mj-raw>
         <!-- 3 Days of Deals Banner Gif -->
       </mj-raw>
       <mj-section padding="0">
         <mj-column>
-          <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-4.jpg" alt="three days of deals" />
+          <mj-image padding="0" href="https://www.kohls.com" src="https://i.postimg.cc/KYbHDGW1/banner-4.jpg" alt="three days of deals" />
         </mj-column>
       </mj-section>
 
       <mj-raw>
         <!-- Shop Now Menu - Menu Banner -->
       </mj-raw>
-      <mj-section padding="0">
-        <mj-group>
-          <mj-column width="238px">
-            <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-5-menu-home.jpg" alt="menu option for home" />
-          </mj-column>
-          <mj-column width="162px">
-            <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-5-menu-women.jpg" alt="menu option for women" />
-          </mj-column>
-          <mj-column width="240px">
-            <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-5-menu-men.jpg" alt="menu option for men" />
-          </mj-column>
-        </mj-group>
-      </mj-section>
-      <mj-section padding="0">
-        <mj-group>
-          <mj-column width="238px">
-            <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-5-menu-boys.jpg" alt="menu option for boys" />
-          </mj-column>
-          <mj-column width="162px">
-            <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-5-menu-girls.jpg" alt="menu option for girls" />
-          </mj-column>
-          <mj-column width="240px">
-            <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-5-menu-shoes.jpg" alt="menu option for shoes" />
-          </mj-column>
-        </mj-group>
+
+      <mj-section background-color="#FCF8F0" padding="0">
+        <mj-column padding="0">
+          <mj-table padding="0">
+            <tr>
+              <td style="padding: 0 !important; margin: 0 !important;">
+                <mj-raw padding="0">
+                  <img href="https://www.kohls.com" src="https://i.postimg.cc/rmQ3pBQK/banner-5-menu-home.jpg" alt="menu option for home" />
+                </mj-raw>
+              </td>
+              <td>
+                <mj-raw padding="0">
+                  <img href="https://www.kohls.com" src="https://i.postimg.cc/RZZ36KSh/banner-5-menu-women.jpg" alt="menu option for women" />
+                </mj-raw>
+              </td>
+              <td style="padding: 0 !important; margin: 0 !important;">
+                <mj-raw padding="0">
+                  <img href="https://www.kohls.com" src="https://i.postimg.cc/zBJ48zws/banner-5-menu-men.jpg" alt="menu option for men" />
+                </mj-raw>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 0 !important; margin: 0 !important;">
+                <mj-raw>
+                  <img href="https://www.kohls.com" src="https://i.postimg.cc/mrW0pNP2/banner-5-menu-boys.jpg" alt="menu option for boys" />
+                </mj-raw>
+              </td>
+              <td style="padding: 0 !important; margin: 0 !important;">
+                <mj-raw>
+                  <img href="https://www.kohls.com" src="https://i.postimg.cc/XvKtRG5K/banner-5-menu-girls.jpg" alt="menu option for girls" />
+                </mj-raw>
+              </td>
+              <td style="padding: 0 !important; margin: 0 !important;">
+                <mj-raw>
+                  <img href="https://www.kohls.com" src="https://i.postimg.cc/dVyb9Stx/banner-5-menu-shoes.jpg" alt="menu option for shoes" />
+                </mj-raw>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
       </mj-section>
 
       <mj-raw>
@@ -207,7 +217,7 @@
       </mj-raw>
       <mj-section padding="0">
         <mj-column>
-          <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-6.png" alt="earn $10 in kohl's cash" />
+          <mj-image padding="0" href="https://www.kohls.com" src="https://i.postimg.cc/BbzzTxW3/banner-6.png" alt="earn $10 in kohl's cash" />
         </mj-column>
       </mj-section>
 
@@ -221,7 +231,7 @@
       </mj-raw>
       <mj-section padding="0">
         <mj-column padding="0">
-          <mj-image padding="0" href="https://www.kohls.com" src="./assets/banner-13.gif" alt="clearance banner" />
+          <mj-image padding="0" href="https://www.kohls.com" src="https://i.postimg.cc/1RW1RqjJ/banner-13.gif" alt="clearance banner" />
         </mj-column>
       </mj-section>
 
