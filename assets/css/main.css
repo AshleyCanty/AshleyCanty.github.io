@@ -285,17 +285,17 @@ a h6:hover {
 	border: none;
 	border-radius: 50px;
 	padding: 17px 35px;
-	-webkit-transition: 0.4s;
-	-o-transition: 0.4s;
-	transition: 0.4s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
 }
 .tj-btn-primary i {
 	-webkit-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
-	-webkit-transition: 0.4s;
-	-o-transition: 0.4s;
-	transition: 0.4s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
 }
 .tj-btn-primary:hover {
 	background-position: -100%;
@@ -633,8 +633,8 @@ body.loaded {
 }
 
 .load-text span:nth-child(5) {
-	-webkit-animation-delay: 0.4s;
-	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s;
 }
 
 .load-text span:nth-child(6) {
@@ -1127,9 +1127,9 @@ body.loaded {
 	-webkit-transform: scaleY(0);
 	-ms-transform: scaleY(0);
 	transform: scaleY(0);
-	-webkit-transition: all 0.4s ease-in-out 0s;
-	-o-transition: all 0.4s ease-in-out 0s;
-	transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 	z-index: -1;
 }
 .tj-header-area .mobile-menu.opened {
@@ -2080,9 +2080,9 @@ body.loaded {
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	margin-bottom: 10px;
-	-webkit-transition: 0.4s;
-	-o-transition: 0.4s;
-	transition: 0.4s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
 }
 .portfolio_navigation .navigation_item.prev-project .project i {
 	-webkit-transform: rotate(45deg);
@@ -2317,7 +2317,7 @@ body.loaded {
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition-delay: 1.5s;
-	transition: 0.4s;
+	transition: 0.3s;
 }
 .testimonials-widget
 	.owl-item.active
@@ -2400,7 +2400,7 @@ body.loaded {
 	line-height: 1;
 	padding: 7px 10px;
 	border-radius: 50px;
-	transition: 0.4s;
+	transition: 0.3s;
 }
 .blog-item .blog-thumb .category:hover {
 	background-size: 100%;
@@ -2491,7 +2491,7 @@ body.loaded {
 	font-size: 22px;
 	text-transform: capitalize;
 	margin-bottom: 0;
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 /* END: Blog Section */
 
@@ -2551,7 +2551,7 @@ body.loaded {
 	line-height: 1;
 	padding: 10px 15px;
 	border-radius: 50px;
-	transition: 0.4s;
+	transition: 0.3s;
 }
 .tj-post__thumb .category:hover {
 	background-size: 100%;
@@ -2603,7 +2603,7 @@ body.loaded {
 	z-index: -1;
 	border-radius: 50%;
 	animation: animate-pulse 3s linear infinite;
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 .tj-post__thumb .tj-post__video .popup_video:hover::after {
 	opacity: 1;
@@ -2638,7 +2638,7 @@ body.loaded {
 	height: 100%;
 	background-color: var(--tj-theme-primary);
 	opacity: 0.7;
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 	z-index: -1;
 	border-radius: 50%;
 }
@@ -2672,7 +2672,7 @@ body.loaded {
 	font-size: inherit;
 	line-height: 1;
 	color: inherit;
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 .tj-post__meta span a:hover {
 	color: var(--tj-theme-primary);
@@ -2799,7 +2799,7 @@ blockquote cite::before {
 	font-weight: var(--tj-fw-medium);
 	color: var(--tj-white);
 	background-color: transparent;
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 	border: none;
 }
 .tj__pagination ul li .page-numbers:hover,
@@ -2920,7 +2920,7 @@ blockquote cite::before {
 	color: var(--tj-white);
 	text-decoration: none;
 	border-radius: 50%;
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 .single-post_tag_share .share_link a:hover {
 	background-color: var(--tj-theme-primary);
@@ -3008,7 +3008,7 @@ blockquote cite::before {
 	margin: 0;
 	line-height: 1.4;
 	word-break: break-word;
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 .single-post__navigation
 	.tj-navigation_post
@@ -3112,7 +3112,7 @@ blockquote cite::before {
 }
 .tj__comment .tj-comment__wrap .comment__text .avatar__name h5 {
 	margin-bottom: 5px;
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 .tj__comment .tj-comment__wrap .comment__text .avatar__name h5:hover {
 	color: var(--tj-theme-primary);
@@ -3137,7 +3137,7 @@ blockquote cite::before {
 	border: 1px solid var(--tj-theme-primary);
 	text-decoration: none;
 	margin-top: 10px;
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 .tj__comment
 	.tj-comment__wrap
@@ -3242,7 +3242,7 @@ blockquote cite::before {
 	font-weight: var(--tj-fw-medium);
 	color: var(--tj-white);
 	text-decoration: none;
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 .contact-info-list .text-box a:hover {
 	color: var(--tj-theme-primary);
@@ -3404,9 +3404,9 @@ blockquote cite::before {
 	transform: translateX(-50%);
 	margin-top: -2px;
 	z-index: -1;
-	-webkit-transition: all 0.4s ease-in-out 0s;
-	-o-transition: all 0.4s ease-in-out 0s;
-	transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 .side-navbar li a span {
 	position: absolute;
@@ -3499,7 +3499,7 @@ blockquote cite::before {
 	padding: 15px 20px;
 	border-radius: 8px;
 	font-size: 16px;
-	transition: 0.4s;
+	transition: 0.3s;
 	position: relative;
 	z-index: 1;
 }
@@ -3525,7 +3525,7 @@ blockquote cite::before {
 	line-height: 1;
 	margin-right: 10px;
 	color: var(--tj-body);
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 
 .sidebar_widget.services_list ul li.active button i,
@@ -3568,7 +3568,7 @@ blockquote cite::before {
 	align-items: center;
 	justify-content: center;
 	z-index: 2;
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 .tj-widget__search.form_group .search-btn:hover {
 	background-color: var(--tj-theme-secondary);
@@ -3601,7 +3601,7 @@ blockquote cite::before {
 	font-size: inherit;
 	font-weight: inherit;
 	color: var(--tj-body);
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 .sidebar_widget.widget_categories ul li a:hover {
 	color: var(--tj-theme-primary);
@@ -3661,7 +3661,7 @@ blockquote cite::before {
 	color: inherit;
 	font-weight: inherit;
 	line-height: inherit;
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 .tj_recent_posts ul li .recent-post_content .recent-post_title a:hover {
 	color: var(--tj-theme-primary);
@@ -3761,7 +3761,7 @@ body.absolute_header .breadcrumb_area {
 	width: 0%;
 	height: 1px;
 	background-color: var(--tj-white);
-	transition: 0.4s;
+	transition: 0.3s;
 }
 .breadcrumb_navigation span a:hover::after {
 	width: 100%;
