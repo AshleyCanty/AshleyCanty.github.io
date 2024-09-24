@@ -103,14 +103,14 @@
             margin-bottom: 10px;
         }
 
-        .email-form {
+        .email-form, .newsletter-form {
             margin-bottom: 20px;
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
         }
 
-        .email-form input[type="email"] {
+        .email-form input[type="email"], .newsletter-form input[type="email"] {
             flex: 1;
             min-width: 200px;
             padding: 10px;
@@ -121,7 +121,7 @@
             height: 50px;
         }
 
-        .email-form button {
+        .email-form button, .newsletter-form button {
             flex: 0 0 150px;
             background-color: #FFDD5E;
             color: #1b1b1b;
@@ -568,6 +568,10 @@
                 flex-direction: column;
             }
 
+            .services-overview {
+                padding: 120px 0 60px;
+            }
+
             .services-detail .container {
                 grid-template-columns: 1fr;
             }
@@ -768,7 +772,7 @@
             left: -50px;
         }
         .padded-wrapper {
-            padding: 80px 30px;
+            padding: 60px 30px;
             width: 100%;
             max-width: 1200px;
         }
@@ -883,6 +887,20 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contact img {
+            width: 35px;
+            height: 35px;
+            object-fit: contain;
+            margin-right: 15px;
         }
 
         .contact a {
@@ -1008,7 +1026,7 @@
             </div>
         </section>
     </div>
-    <div class="padded-wrapper">
+    <div class="padded-wrapper overview" style="padding: 40px 30px 80px;">
         <section class="services-overview">
             <img src="https://i.postimg.cc/nV3FJThZ/med-paw.png" alt="Medium paw print" class="paw overview-med-paw">
             <img src="https://i.postimg.cc/kgWVYjpv/puppy.png" alt="Puppy" class="decorative-image puppy">
@@ -1121,6 +1139,7 @@
     <div class="footer-content">
         <div class="left-column">
             <div class="contact">
+                <img src="https://i.postimg.cc/SR1LYHkh/telephone-call.png" alt="phone icon"/>
                 <a href="tel:8663382463">(866) 338-2463</a>
             </div>
             <div class="footer-links">
@@ -1150,8 +1169,8 @@
         <div class="newsletter">
             <p>Sign up to receive VivaPets Newsletter*</p>
             <form class="newsletter-form">
-                <input type="email" placeholder="Email Address">
-                <button type="submit">Subscribe!</button>
+                <input type="email" placeholder="Email Address" required style="flex:100%;">
+                <button type="submit" style="flex:100%;">Subscribe</button>
             </form>
         </div>
         <div class="copyright">
