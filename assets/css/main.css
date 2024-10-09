@@ -1546,24 +1546,24 @@ body.loaded {
 * ===============================
 */
 
-.services-section .container .row .col-lg-6 img {
+.services-section .container .row .services-image img {
 	border-radius: 38px !important;
 	width: 100%;
 	max-width: 452px;
 	margin-top: 10px;
 }
 
-.services-section .container .row .col-lg-6, .services-section .col-lg-7 {
+.services-section .container .row .services-image {
 	max-width: 452px !important;
 }
 
-.services-section .container .row .col-lg-6 {
+.services-section .container .row .services-image {
 	width: 36% !important;
 }
-.services-section .container .row .offset-lg-1 {
+.services-section .container .row .services-text {
 	margin-left: 5% !important;
 }
-.services-section .container .row .col-lg-5 {
+.services-section .container .row .services-text {
 	width: 100% !important;
 	max-width: 50% !important;
 	text-align: left !important;
