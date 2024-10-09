@@ -1600,7 +1600,7 @@ body.loaded {
 	.services-section .col-lg-6{
 		width: 100% !important;
     	text-align: center !important;
-		margin: 10px 0 40px !important;
+		margin: 10px auto 40px !important;
 	}
 	.services-section .offset-lg-1 {
 		margin-left: 0% !important;
