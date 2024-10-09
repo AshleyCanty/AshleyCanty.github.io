@@ -1605,7 +1605,7 @@ body.loaded {
 	.services-section .offset-lg-1 {
 		margin-left: 0% !important;
 	}
-	.services-section .col-lg-5 {
+	.services-section .col-lg-5, .services-section img {
 		max-width: 100% !important;
 		text-align: center !important;
 		
