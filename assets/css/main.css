@@ -1570,15 +1570,15 @@ body.loaded {
 	top: 0;
 }
 
-.about-me-wrapper {
-
-}
-
-.about-me-image{
-	border-radius: 38px;
+.services-section img {
+	border-radius: 38px !important;
 	width: 100%;
 	max-width: 452px;
 	margin-top: 10px;
+}
+
+.services-section .col-lg-6, .services-section .col-lg-6 {
+	max-width: 452px !important;
 }
 
 .services-section .col-lg-6 {
