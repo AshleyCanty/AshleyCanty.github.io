@@ -1577,7 +1577,7 @@ body.loaded {
 	margin-top: 10px;
 }
 
-.services-section .col-lg-6, .services-section .col-lg-6 {
+.services-section .col-lg-6, .services-section .col-lg-7 {
 	max-width: 452px !important;
 }
 
@@ -1597,7 +1597,7 @@ body.loaded {
 	.services-section .row {
 		flex-wrap: wrap-reverse !important;
 	}
-	.services-section .col-lg-6{
+	.services-section .col-lg-6, .services-section .col-lg-7{
 		width: 100% !important;
     	text-align: center !important;
 		margin: 10px auto 40px !important;
