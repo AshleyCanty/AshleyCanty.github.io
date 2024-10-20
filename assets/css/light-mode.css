@@ -392,6 +392,7 @@ body.light-mode .preloader .preloader-heading .load-text {
 */
 .light-mode .tj-footer-area {
 	background: var(--tj-theme-secondary);
+	padding: 50px 0 20px;
 }
 /* END: Footer Area */
 
