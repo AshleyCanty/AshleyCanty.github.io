@@ -21,7 +21,7 @@ body.light-mode .preloader .preloader-heading .load-text {
 .light-mode .btn:hover {
 	color: var(--tj-white);
 }
-.light-mode .section-header .section-title {
+.light-mode .section-header .section-title, .section-header .section-title {
 	background: var(--tj-theme-primary);
 	background: -webkit-gradient(
 		linear,
@@ -181,7 +181,7 @@ body.light-mode .preloader .preloader-heading .load-text {
 * ===============================
 */
 .light-mode .services-section {
-	background-color: var(--tj-off-white);
+	background-color: var(--tj-white);
 }
 .light-mode .services-widget .service-item {
 	border-bottom: 1px solid var(--tj-grey-3);
@@ -224,13 +224,13 @@ body.light-mode .preloader .preloader-heading .load-text {
 * ===============================
 */
 .light-mode .portfolio-section {
-	background: var(--tj-white);
+	background: var(--tj-off-white);
 }
 .light-mode .portfolio-box .portfolio-item .content-box .portfolio-title {
 	color: var(--tj-white);
 }
 .light-mode .portfolio-filter .button-group {
-	background-color: var(--tj-off-white);
+	background-color: var(--tj-white);
 }
 .light-mode .portfolio-filter .button-group button {
 	color: var(--tj-theme-primary);
@@ -271,10 +271,10 @@ body.light-mode .preloader .preloader-heading .load-text {
 * ===============================
 */
 .light-mode .skills-section {
-	background: var(--tj-white);
+	background: var(--tj-off-white);
 }
 .light-mode .skills-widget .skill-inner {
-	background: var(--tj-off-white);
+	background: none;/* var(--tj-white); */
 }
 /*  END: Skills Section */
 
@@ -299,6 +299,12 @@ body.light-mode .preloader .preloader-heading .load-text {
 *  START: Blog Section
 * ===============================
 */
+
+.light-mode .blog-section .yt-video {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 .light-mode .blog-section {
 	background: var(--tj-white);
 }
